@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+               
+     <bean id = "details"  class="com.pradnya.Spring.dto.Details">
+     <property name="id" value="1"/>
+     <property name="name" value="pradnya"/>
+     <property name="email" value="pannu89@gmail.com"/>
+     </bean>
+     
+     <bean id = "prajakta"  class="com.pradnya.Spring.dto.Details">
+     <property name="id" value="2"/>
+     <property name="name" value="prajakta"/>
+     <property name="email" value="prajakta8@gmail.com"/>
+     
+     
+     </bean> 
+     <bean id = "sakshi"  class="com.pradnya.Spring.dto.Details">
+     <property name="id" value="1"/>
+     <property name="name" value="sakshi"/>
+     <property name="email" value="sakshi07@gmail.com"/>
+     </bean>  
+     
+     
+     <bean id ="Ved" class = "com.pradnya.Spring.dto.Employee">
+          <constructor-arg  value="ved" />
+          <constructor-arg  value="9988776665" />
+          <constructor-arg  value="Manager" />
+     </bean>  
+     
+      <bean id ="Nidhi" class = "com.pradnya.Spring.dto.Employee">
+          <constructor-arg  value="Nidhi" />
+          <constructor-arg  value="9800789066" />
+          <constructor-arg  value="Testing" />
+     </bean> 
+     
+     <bean id ="Diksha" class = "com.pradnya.Spring.dto.Employee">
+          <constructor-arg  value="Diksha" />
+          <constructor-arg  value="8090887766" />
+          <constructor-arg  value="HR" />
+     </bean>     
+       </beans>
